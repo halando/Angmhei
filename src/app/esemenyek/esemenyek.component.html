@@ -1,0 +1,17 @@
+<header>
+    <!-- Header content (same as in your original HTML) -->
+    HEHEHEHAW
+  </header>
+  <div class="page-content">
+    <h1>Események</h1>
+    <!-- Add your content for this page here -->
+    <mat-form-field>
+      <mat-label>Válassz egy eseményt</mat-label>
+      <mat-select>
+        <mat-option *ngFor="let event of events" [value]="event.value">
+          {{ event.label }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    pog
+  </div>
